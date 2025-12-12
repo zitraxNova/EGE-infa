@@ -25,3 +25,5 @@ print('#21')
 for s in range(1, 67 ):
         if f(s, 4) == 1 and f(s, 1) == 0:
                 print(s)
+
+
