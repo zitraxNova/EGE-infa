@@ -5,6 +5,6 @@ def R(n):
     bn = bn + str(bn.count('1') % 2)
     return int(bn, 2)
 
-print(min(R(N) for N in range(1, 100) if R(N) > 75))
+print(min(R(N) for N in range(1, 100) if R(N) > 123))
 
-# 78
+# 126

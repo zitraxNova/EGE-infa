@@ -1,4 +1,3 @@
-
 def f3(x):
     s = ''
     while x:

@@ -13,6 +13,5 @@ for n in range(1, 100):
     r = int(s, 2)   
     if 210 <= r <= 260:  
         print(r)
-        break
 
-# 210
+# ???

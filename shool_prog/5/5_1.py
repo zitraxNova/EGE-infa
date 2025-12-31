@@ -7,6 +7,6 @@ for n in range(10, 100):
 
  R += '0'
  if int(R, 2) > 180:
-  print(n)
+  print(int(R, 2))
 
-# 46
+# 184

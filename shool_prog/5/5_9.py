@@ -6,8 +6,8 @@ def R(N):
 
 
 for N in range(2, 1000):
-    if R(N) > 100:
+    if R(N) > 170:
         print(N)
         break
 
-# 25
+# 43
