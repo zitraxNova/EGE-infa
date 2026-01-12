@@ -9,8 +9,8 @@ def f(n):
 for n in range(1, 100):
     s = 0 
     if f(n) > 3200000:
+        s = 0
         print(n, f(n))
         break
 
-# 46 6535702
-        
+# 46 3267851 
