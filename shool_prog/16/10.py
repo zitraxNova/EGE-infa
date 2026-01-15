@@ -3,6 +3,9 @@ def f(n):
         return n ** 2 - 5
     if n <= 15:
         return n * f(n + 2) + n + f(n + 3)
-    
-print(f(1))
-# 884415846
+
+res = f(1)
+sum_digits = sum(int(digit) for digit in str(res))
+print(sum_digits)
+
+# 48

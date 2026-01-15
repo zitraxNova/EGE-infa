@@ -2,10 +2,11 @@ def f(n):
     global k
     k += 1
     if n >= 1:
+        k += 1
         f(n - 1)
         f(n - 3)
         k += 1
     return k
 k = 0
 print(f(40))
-# 17210881
+# 22947841
