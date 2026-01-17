@@ -1,0 +1,10 @@
+def f(st, fi):
+    if st < fi:
+        return 0
+    if st == fi:
+        return 1
+    if st > fi:
+        return f(st - 1, fi) + f(st - 3, fi) + f(st // 3, fi)
+
+print(f(22, 2))
+# 2196
