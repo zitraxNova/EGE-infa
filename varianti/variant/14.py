@@ -6,3 +6,4 @@ while num:
     num //= 49
 
 print(count)
+# 267
