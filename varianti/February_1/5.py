@@ -5,7 +5,7 @@ def f3(x):
         x = x // 3
     return s[::-1]
 
-for n in range(1, 100):
+for n in range(3, 100):
     f3_n = f3(n)
     if n % 3 == 0:
         f3_n += f3_n[-2:]
@@ -13,4 +13,5 @@ for n in range(1, 100):
         f3_n += f3((n % 3) * 3)
 
     if int(f3_n, 3) < 150:
-        print(int(f3_n, 3))
+        print(n)
+# 16

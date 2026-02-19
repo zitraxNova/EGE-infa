@@ -4,5 +4,6 @@ for x in range(2):
             for z in range(2):
                 f = not(x <= y) or (z == w) or z
                 if f == 0:
-                    print(x,z,y,w,'|', f * 1)
-# xywz
+                    print(z,y,x,w,'|', f * 1)
+# zyxw
+
