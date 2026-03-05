@@ -10,13 +10,13 @@ def num(n):
 #print(num(100))
 #print(num(11))
 
-n = 220000
+n = 700000
 k = 0
 while k < 5:
     n += 1
     d = num(n)
     if len(d) > 0:
         m = min(d) + max(d)
-        if m % 10 == 4: # str(m)[-1:] == '8'
+        if m % 10 == 8: # str(m)[-1:] == '8'
             print(n, m)
             k += 1
