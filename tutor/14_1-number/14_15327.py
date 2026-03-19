@@ -5,3 +5,4 @@ while n > 0:
         k += 1
     n = n // 27
 print(k)
+    
