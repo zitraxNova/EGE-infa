@@ -6,3 +6,4 @@ def f(n):
 
 res = f(31) - f(23)
 print(res)
+# 520

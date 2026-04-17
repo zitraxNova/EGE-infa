@@ -22,9 +22,9 @@ for s in range(1, 200 + 1):
 
 print('#21')
 for s in range(1, 64 + 1):
-    if f(s, 2) == 1 and f(s, 1) == 0:
+    if f(s, 2) == 1 or f(s, 4) == 1 and f(s, 1) == 0:
         print(s)
 
-# 19  23
+# 19  3
 # 20  5 19
 # 21  25
