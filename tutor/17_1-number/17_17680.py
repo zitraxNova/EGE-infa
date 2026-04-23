@@ -11,5 +11,6 @@ m = min(m)
 print(m)
 res = []
 for i in range(len(a) - 1):
-            #.....
-    print(len(res), max(res))
+    if a[i] != a[i + 1] and abs(a[i] - a[i + 1])  % m == 0:
+        res.append(a[i] + a[i + 1])
+print(len(res), max(res))
